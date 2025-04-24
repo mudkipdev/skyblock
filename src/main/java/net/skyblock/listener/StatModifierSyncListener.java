@@ -1,4 +1,4 @@
-package net.skyblock.listeners;
+package net.skyblock.listener;
 
 import net.skyblock.item.component.Component;
 import net.skyblock.item.component.ComponentContainer;

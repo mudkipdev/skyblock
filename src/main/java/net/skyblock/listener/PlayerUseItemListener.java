@@ -1,4 +1,4 @@
-package net.skyblock.listeners;
+package net.skyblock.listener;
 
 import net.minestom.server.event.EventListener;
 import net.minestom.server.event.player.PlayerUseItemEvent;

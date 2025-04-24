@@ -27,13 +27,13 @@ public record SkyblockDamage(
      * Builder class for creating SkyblockDamage instances with a fluent API
      */
     public static class Builder {
-        private boolean isProjectile = false;
-        private boolean isMagicDamage = false;
-        private double damage = 0;
-        private boolean isCriticalDamage = false;
+        private boolean isProjectile;
+        private boolean isMagicDamage;
+        private double damage;
+        private boolean isCriticalDamage;
         private DamageReason reason = DamageReason.OTHER;
-        private CombatEntity source = null;
-        private CombatEntity target = null;
+        private CombatEntity source;
+        private CombatEntity target;
 
         /**
          * Sets whether the damage is from a projectile

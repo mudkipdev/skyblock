@@ -1,7 +1,7 @@
 package net.skyblock.item.component.components;
 
 import net.skyblock.item.component.trait.NonPersistentComponent;
-import net.skyblock.item.enums.ItemCategory;
+import net.skyblock.item.ItemCategory;
 import org.jetbrains.annotations.NotNull;
 
 /**

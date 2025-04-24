@@ -1,4 +1,4 @@
-package net.skyblock.item.enums;
+package net.skyblock.item;
 
 import net.kyori.adventure.text.format.NamedTextColor;
 import net.kyori.adventure.text.format.TextColor;

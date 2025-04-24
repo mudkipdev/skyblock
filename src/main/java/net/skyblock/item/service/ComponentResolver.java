@@ -3,8 +3,8 @@ package net.skyblock.item.service;
 import net.skyblock.item.component.ComponentContainer;
 import net.skyblock.item.component.components.ItemCategoryComponent;
 import net.skyblock.item.component.components.RarityComponent;
-import net.skyblock.item.enums.ItemCategory;
-import net.skyblock.item.enums.Rarity;
+import net.skyblock.item.ItemCategory;
+import net.skyblock.item.Rarity;
 import org.jetbrains.annotations.NotNull;
 
 /**

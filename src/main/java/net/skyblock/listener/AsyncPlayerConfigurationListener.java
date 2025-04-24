@@ -1,4 +1,4 @@
-package net.skyblock.listeners;
+package net.skyblock.listener;
 
 import net.minestom.server.coordinate.Pos;
 import net.minestom.server.entity.Player;

@@ -31,10 +31,10 @@ import java.util.UUID;
  */
 public abstract class SkyblockEntity extends EntityCreature implements CombatEntity {
     private static final List<SkyblockEntity> activeMobs = new ArrayList<>();
-    private int level = 0;
-    private StatProfile statProfile;
+    private int level;
+    private final StatProfile statProfile;
     private float currentHealth;
-    private boolean isInvulnerable = false;
+    private boolean isInvulnerable;
 
     /**
      * Creates a new SkyblockEntity with the specified entity type
@@ -44,7 +44,6 @@ public abstract class SkyblockEntity extends EntityCreature implements CombatEnt
     protected SkyblockEntity(@NotNull EntityType entityType) {
         super(entityType);
         this.statProfile = new StatProfile(false); // Initialize empty profile
-        this.currentHealth = 0f; // Will be set during spawn based on max health
     }
 
     /**

@@ -1,10 +1,9 @@
 package net.skyblock.item.component.components;
 
+import net.skyblock.item.component.Component;
 import net.skyblock.item.component.ComponentContainer;
-import net.skyblock.item.component.trait.DeserializableComponent;
-import net.skyblock.item.component.trait.SerializableComponent;
 import net.skyblock.item.component.trait.StatModifierComponent;
-import net.skyblock.item.enums.ModifierType;
+import net.skyblock.item.ModifierType;
 import net.skyblock.stats.StatProfile;
 import net.skyblock.stats.StatValueType;
 import net.skyblock.stats.Statistic;
@@ -21,7 +20,7 @@ import java.util.Optional;
  * Serializable to NBT ({@code art_of_power} tag)
  * Acts as a Hot Potato type modifier with red text.
  */
-public class ArtOfPeaceComponent implements StatModifierComponent, SerializableComponent, DeserializableComponent {
+public class ArtOfPeaceComponent implements StatModifierComponent, Component {
     private static final Tag<Boolean> ART_OF_PEACE= Tag.Boolean("art_of_peace").defaultValue(false);
     private final boolean isApplied;
 
@@ -54,7 +53,7 @@ public class ArtOfPeaceComponent implements StatModifierComponent, SerializableC
         builder.set(ART_OF_PEACE, isApplied);
     }
 
-    public static @NotNull Optional<? extends DeserializableComponent> read(@NotNull ItemStack itemStack) {
+    public static @NotNull Optional<? extends Component> read(@NotNull ItemStack itemStack) {
         if (itemStack.hasTag(ART_OF_PEACE)) {
             return Optional.of(new ArtOfPeaceComponent(itemStack.getTag(ART_OF_PEACE)));
         }

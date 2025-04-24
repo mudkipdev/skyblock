@@ -1,11 +1,9 @@
 package net.skyblock.item.component.components;
 
 import net.skyblock.item.component.ComponentContainer;
-import net.skyblock.item.component.trait.DeserializableComponent;
 import net.skyblock.item.component.trait.LoreComponent;
-import net.skyblock.item.component.trait.SerializableComponent;
-import net.skyblock.item.enums.ItemCategory;
-import net.skyblock.item.enums.Rarity;
+import net.skyblock.item.ItemCategory;
+import net.skyblock.item.Rarity;
 import net.skyblock.item.service.ComponentResolver;
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.format.TextColor;
@@ -22,7 +20,7 @@ import java.util.Optional;
  * A class representing the rarity component for an item, which
  * includes the rarity level and whether the rarity has been upgraded.
  */
-public final class RarityComponent implements LoreComponent, SerializableComponent, DeserializableComponent {
+public final class RarityComponent implements LoreComponent, SerializableComponent, net.skyblock.item.component.Component {
     private static final Tag<String> RARITY = Tag.String("rarity");
     private static final Tag<Boolean> IS_UPGRADED = Tag.Boolean("is_upgraded");
     private final Rarity rarity;

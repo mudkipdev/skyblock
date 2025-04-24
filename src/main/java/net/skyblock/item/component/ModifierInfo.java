@@ -1,6 +1,6 @@
 package net.skyblock.item.component;
 
-import net.skyblock.item.enums.ModifierType;
+import net.skyblock.item.ModifierType;
 import net.kyori.adventure.text.format.TextColor;
 
 /**

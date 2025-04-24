@@ -6,11 +6,9 @@ import com.google.gson.reflect.TypeToken;
 import net.kyori.adventure.text.Component;
 import net.minestom.server.item.Material;
 import net.skyblock.item.component.adapters.*;
-import net.skyblock.item.enums.ItemCategory;
-import net.skyblock.item.enums.Rarity;
+import skyblock.item.component.adapters.*;
 import net.skyblock.stats.StatProfile;
 
-import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.lang.reflect.Type;

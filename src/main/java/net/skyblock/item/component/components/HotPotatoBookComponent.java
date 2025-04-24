@@ -1,11 +1,10 @@
 package net.skyblock.item.component.components;
 
+import net.skyblock.item.component.Component;
 import net.skyblock.item.component.ComponentContainer;
-import net.skyblock.item.component.trait.DeserializableComponent;
-import net.skyblock.item.component.trait.SerializableComponent;
 import net.skyblock.item.component.trait.StatModifierComponent;
-import net.skyblock.item.enums.ItemCategory;
-import net.skyblock.item.enums.ModifierType;
+import net.skyblock.item.ItemCategory;
+import net.skyblock.item.ModifierType;
 import net.skyblock.item.service.ComponentResolver;
 import net.skyblock.stats.StatProfile;
 import net.skyblock.stats.StatValueType;
@@ -29,7 +28,7 @@ import java.util.Optional;
  * - Armor (HELMET, CHESTPLATE, LEGGINGS, BOOTS): +2 Defense and +4 Health per book
  * - Other items cannot have Hot Potato Books applied
  */
-public class HotPotatoBookComponent implements StatModifierComponent, SerializableComponent, DeserializableComponent {
+public class HotPotatoBookComponent implements StatModifierComponent, SerializableComponent, Component {
     private static final Tag<Integer> HOT_POTATO_BOOKS = Tag.Integer("hot_potato_books");
     private static final int MAX_HOT_POTATO_BOOKS = 10;
     private final int count;

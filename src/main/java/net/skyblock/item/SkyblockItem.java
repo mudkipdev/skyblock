@@ -3,8 +3,7 @@ package net.skyblock.item;
 import net.skyblock.item.component.Component;
 import net.skyblock.item.component.ComponentContainer;
 import net.skyblock.item.component.components.*;
-import net.skyblock.item.enums.ItemCategory;
-import net.skyblock.item.enums.Rarity;
+import skyblock.item.component.components.*;
 import net.skyblock.stats.StatProfile;
 import net.minestom.server.item.Material;
 

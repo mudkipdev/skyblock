@@ -1,4 +1,4 @@
-package net.skyblock.item.enums;
+package net.skyblock.item;
 
 import org.jetbrains.annotations.NotNull;
 

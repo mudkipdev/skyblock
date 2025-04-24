@@ -1,6 +1,6 @@
 package net.skyblock.item.component.adapters;
 
-import net.skyblock.item.enums.Rarity;
+import net.skyblock.item.Rarity;
 import com.google.gson.TypeAdapter;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;

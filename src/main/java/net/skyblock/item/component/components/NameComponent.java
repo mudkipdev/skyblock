@@ -1,6 +1,5 @@
 package net.skyblock.item.component.components;
 
-import net.skyblock.item.component.trait.SerializableComponent;
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.format.TextDecoration;
 import net.minestom.server.item.ItemStack;

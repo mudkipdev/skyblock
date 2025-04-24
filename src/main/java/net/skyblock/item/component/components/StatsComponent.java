@@ -4,7 +4,7 @@ import net.skyblock.item.component.ComponentContainer;
 import net.skyblock.item.component.ModifierInfo;
 import net.skyblock.item.component.trait.LoreComponent;
 import net.skyblock.item.component.trait.StatModifierComponent;
-import net.skyblock.item.enums.ModifierType;
+import net.skyblock.item.ModifierType;
 import net.skyblock.stats.StatProfile;
 import net.skyblock.stats.Statistic;
 import net.skyblock.stats.StatValueType;
@@ -33,7 +33,7 @@ public final class StatsComponent implements LoreComponent {
 
     // Add a cache for the final stats calculation
     private transient StatProfile finalStatsCache;
-    private transient boolean statsCacheValid = false;
+    private transient boolean statsCacheValid;
 
     /**
      * Creates a new StatsComponent with default empty stats

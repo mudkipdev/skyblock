@@ -3,7 +3,6 @@ package net.skyblock.item.component.components;
 import net.minestom.server.color.Color;
 import net.minestom.server.component.DataComponents;
 import net.minestom.server.item.ItemStack;
-import net.skyblock.item.component.trait.SerializableComponent;
 import org.jetbrains.annotations.NotNull;
 
 /**

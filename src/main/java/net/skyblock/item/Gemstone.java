@@ -1,4 +1,4 @@
-package net.skyblock.item.enums;
+package net.skyblock.item;
 
 /**
  * Different Types of Gemstones

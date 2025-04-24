@@ -17,7 +17,7 @@ import java.util.function.Predicate;
 public abstract class Registry<K, V> implements Iterable<V> {
     protected final Map<K, V> keyToValue = new ConcurrentHashMap<>();
     protected final Map<V, K> valueToKey = new ConcurrentHashMap<>();
-    private boolean locked = false;
+    private boolean locked;
 
     /**
      * Registers a new entry.

@@ -2,7 +2,7 @@ package net.skyblock.item.component.trait;
 
 import net.skyblock.item.component.Component;
 import net.skyblock.item.component.ComponentContainer;
-import net.skyblock.item.enums.ModifierType;
+import net.skyblock.item.ModifierType;
 import net.skyblock.stats.StatProfile;
 import net.kyori.adventure.text.format.NamedTextColor;
 import net.kyori.adventure.text.format.TextColor;

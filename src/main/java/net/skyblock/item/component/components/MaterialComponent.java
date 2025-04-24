@@ -1,6 +1,5 @@
 package net.skyblock.item.component.components;
 
-import net.skyblock.item.component.trait.SerializableComponent;
 import net.minestom.server.item.ItemStack;
 import net.minestom.server.item.Material;
 import org.jetbrains.annotations.NotNull;
